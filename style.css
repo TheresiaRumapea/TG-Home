@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* ===========UMUM======== */
+.icon-pink {
+  fill: #ffe8d6;
+  transition: all 0.4s;
+}
+.icon-pink:hover {
+  fill: #6b705c;
+}
+.icon-grey {
+  transition: all 0.3s;
+  fill: #767575;
+}
+.icon-grey:hover {
+  fill: #ffe8d6;
+}
+.tombol {
+  transition: all 0.4s;
+}
+.tombol:hover {
+  background-color: #6b705c;
+  color: #e8e8e9;
+}
+.myflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  opacity: 1;
+}
+.icon-emas {
+  width: 1.1em;
+}
+
+/* ===========AKHIR UMUM======== */
+
+/*============STYLE NAVBAR==========  */
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.navigasi {
+  background-color: #a5a58d;
+  /* height: 100px; */
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; */
+  /* z-index: 9999; */
+}
+
+.navbar .nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  /*text-decoration: underline;*/
+  border-bottom: 3px solid #6b705c;
+}
+
+.icon-white {
+  fill: #ffffff;
+}
+
+.nav-item input {
+  height: 23px;
+  width: 200px;
+}
+
+.navbar input {
+  opacity: 0.8;
+  background-color: #fff;
+}
+
+/* seperti button trend house & button di card*/
+.button-pink-text {
+  background-color: #ffe8d6;
+  border: none;
+  color: #767575;
+  font-size: 15px;
+  padding: 2px;
+}
+.button-pink-text svg {
+  width: 1.3em;
+}
+
+.navbar-brand img {
+  width: 150px;
+  background-size: cover;
+}
+
+.navigasi ul li a:hover {
+  /*text-decoration: underline;*/
+  border-bottom: 3px solid #6b705c;
+  color: red;
+}
+
+/*============AKHIR STYLE NAVBAR==========  */
+
+/*============STYLE JUMBOTRON==========  */
+.jumbotron {
+  background-color: #a5a58d;
+  overflow: hidden;
+}
+
+.jumbotron .left {
+  z-index: 1;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 85px;
+  color: #e8e8e9;
+  line-height: 110px;
+  letter-spacing: 5px;
+}
+
+.jumbotron hr {
+  border: 2px solid #e8e8e9;
+  color: #e8e8e9;
+}
+
+.jumbotron img {
+  /* width: 650px; */
+  width: 800px;
+  transition: all 0.4s ease-in-out;
+  margin-left: -170px;
+}
+
+.jumbotron img:hover {
+  transform: scale(1.01);
+}
+
+/*============ AKHIR STYLE JUMBOTRON==========  */
+
+/*============ ABOUT ===============*/
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 img {
+  width: 450px;
+}
+
+.box1 .card {
+  margin-left: -60px;
+  background-color: #a5a58d;
+  opacity: 0.7;
+  border: none;
+  box-shadow: 0 0 1px 0 #a5a58d;
+  transition: all 0.5s ease-in-out;
+}
+
+/*============= AKHIR ABOUT =========*/
+
+/*============= TREND HOUSE===========  */
+.trend-house .card {
+  height: 200px;
+  background-size: cover;
+  border: none;
+  transition: all 0.3s ease-in;
+}
+
+.trend-house .card:hover {
+  transform: scale(1.01);
+}
+
+.trend-house h1 {
+  color: #f0f0f3;
+  padding-top: 110px;
+  font-size: 25px;
+}
+
+.trend-house button {
+  width: 150px;
+  border-radius: 18px;
+}
+
+.card-Tmodern {
+  background-image: url(img/TrendHouse/Modern.jpg);
+}
+
+.card-Ttemporary {
+  background-image: url(img/TrendHouse/Contemporary.jpg);
+}
+
+.card-Ttropical {
+  background-image: url(img/TrendHouse/Tropical.jpg);
+}
+
+.card-Farm {
+  background-image: url(img/TrendHouse/Farm.jpg);
+}
+
+.card-Beach {
+  background-image: url(img/TrendHouse/Beach.jpg);
+}
+
+.card-Craftsman {
+  background-image: url(img/TrendHouse/Craftsman.jpg);
+}
+
+.card-Traditional {
+  background-image: url(img/TrendHouse/Traditional.jpg);
+}
+
+.card-Industrial {
+  background-image: url(img/TrendHouse/Industrial.jpg);
+}
+
+/*=========AKHIR TREND HOUSE====== */
+
+/*======= AWAL STORY OF TG==============*/
+.story {
+  background-color: #a5a58d;
+}
+
+.story .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 img {
+  width: 200px;
+}
+
+/*=======AKHIR STORY OF TG=====*/
+
+/* ======AWAL AUTHOR============= */
+.author .carousel-item {
+  margin: auto;
+  /* margin-top: 500px; */
+}
+
+#carouselExampleCaptions {
+  background-color: #a5a58d;
+}
+
+.author p {
+  font-size: 18px;
+}
+
+.author .caption-kecil {
+  font-size: 15px;
+}
+
+.author img {
+  max-width: 250px;
+}
+
+button .carousel-control-prev-icon,
+button .carousel-control-next-icon {
+  width: 40px;
+}
+
+/* ======AKHIR AUTHOR============ */
+
+/*==================FIND US ON INSTAGRAM============ */
+.find img {
+  width: 150px;
+  border-radius: 100px;
+}
+
+/*=================AKHIR FIND US ON INSTAGRAM============= */
+
+/* ==============FOOTER================ */
+.contact {
+  background-color: #a5a58d;
+}
+
+.contact img {
+  width: 100px;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin: auto;
+  height: auto;
+}
+
+.contact-footer {
+  margin-bottom: 23px;
+}
+
+/* =============AKHIR FOOTER=============== */
+
+/* =====================================INDEX2========================================== */
+
+/* =================================================AWAL SLIDER INDEX 2===== */
+/* Membuat Teks Persis Di Tengah Container Slider */
+.slider .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider hr,
+h1 {
+  color: #e8e8e9;
+}
+
+.slider hr {
+  width: 150px;
+  height: 4px;
+}
+
+.slider h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.slider p {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* ======AKHIR SLIDER INDEX 2===== */
+
+/* =======AWAL NAV TYPE HOUSE INDEX 2============ */
+.nav-type-house .container .btn-warna {
+  background-color: #a5a58d;
+  color: #ffffff;
+  margin-right: 28px;
+  transition: all 0.3s ease-in;
+}
+
+.nav-type-house .container .btn-warna:hover {
+  background-color: #ffe8d6;
+  color: #6b705c;
+}
+
+.nav-type-house .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =======AKHIR NAV TYPE HOUSE INDEX 2============ */
+
+/*=============AWAL 4 CARD DI INDEX 2 =========== */
+.icon-coklat2 {
+  fill: #cb997e;
+}
+.card-umum .btn-pink {
+  background-color: #ffe8d6;
+}
+.icon-emas {
+  fill: yellow;
+}
+.card button {
+  width: 150px;
+  border-radius: 18px;
+}
+.card-umum .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+.card-body .card-title {
+  font-size: 18px;
+}
+.card-location {
+  font-size: 15px;
+}
+/*=============AKHIR 4 CARD DI INDEX 2 =========== */
+
+/* =================INDEX 3 HTML=============== */
+/* ===================CARD OWNER====================== */
+.card-pitcure {
+  border-radius: 10px;
+}
+.card-pitcure img {
+  border-radius: 10px 10px 0 0;
+  transition: all 0.4s ease;
+}
+.card-pitcure img:hover {
+  transform: scale(1.03);
+}
+.icon-share a svg {
+  margin-right: 10px;
+  fill: #6b705c;
+  transition: all 0.3s ease-in;
+}
+.icon-share a svg:hover {
+  fill: #a5a58d;
+}
+/* ==================CARD DETAIL HOUSE================ */
+.card-detail-house table tr {
+  line-height: 35px;
+}
+.card-detail-house {
+  border-radius: 10px;
+  font-size: 16px;
+}
+.card-detail-house hr {
+  height: 2px;
+}
+.card-detail-house button {
+  margin-top: 15px;
+  font-size: 14px;
+  background-color: #6b705c;
+  border-radius: 7px;
+  color: #e8e8e9;
+  fill: #e8e8e9;
+  transition: all 0.3s ease-in;
+}
+.card-detail-house button:hover {
+  background-color: #a5a58d;
+  color: #000;
+  fill: #000;
+}
+
+/* AKHIR CARD */
+/*====================RESPONSIVE======================= */
+@media screen and (max-width: 999px) {
+  /* STORY */
+  .story p {
+    font-size: 14px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+
+  .story img {
+    width: 150px;
+  }
+
+  /* AUTHOR */
+  .author img {
+    max-width: 230px;
+    position: relative;
+  }
+
+  .author .caption-kecil {
+    font-size: 0.7em;
+  }
+
+  .author .caption p {
+    font-size: 0.7em;
+  }
+
+  /* SLIDER */
+  .slider hr {
+    width: 150px;
+    height: 5px;
+  }
+
+  .slider h1 {
+    font-size: 30px;
+    /* margin-top: -220px; */
+  }
+
+  .slider p {
+    font-size: 15px;
+  }
+
+  /* AUTHOR */
+  .author img {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* ABOUT */
+  .about img {
+    width: 278px;
+  }
+
+  .about .card-text {
+    /* jadi kecil */
+    width: 19rem;
+    font-size: 0.7em;
+  }
+
+  .author img {
+    display: none;
+  }
+
+  .slider h1 {
+    font-size: 20px;
+  }
+
+  .slider hr {
+    width: 100px;
+    height: 3px;
+  }
+  .slider p {
+    font-size: 7px;
+  }
+  .card-umum .card {
+    margin-bottom: 25px;
+  }
+}
